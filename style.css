@@ -2,7 +2,7 @@
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: lato, sans-serif;
+  font-family: Lato, sans-serif;
 }
 .aaa {
   width: 500px;
@@ -51,11 +51,11 @@ button {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: lato, sans-serif;
+  font-family: Lato, sans-serif;
   cursor: pointer;
 }
 button:hover {
-  color: #3a3a3a;
+  color: #3a3A3a;
 }
 /* Heading */
 h3,
@@ -74,10 +74,10 @@ input[type="text"] {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #ddd;
-  background: #fff;
+  border: 1px solid #dDd;
+  background: #FFF;
   border-radius: 6px;
-  font-family: lato, sans-serif;
+  font-family: Lato, sans-serif;
   color: #888;
 }
 input[type="text"]:focus {
@@ -121,11 +121,11 @@ li >    input[type="text"] {
 }
 button.delete img {
   height: 2em;
-  transform: rotatez(45deg);
+  transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 button.delete img:hover {
-  transform: rotatez(0);
+  transform: rotateZ(0);
 }
 
 /* Completed */
@@ -139,11 +139,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.edit-mode input[type=text] {
+ul li.editMode input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.edit-mode label {
+ul li.editMode label {
   display:none;
 }
